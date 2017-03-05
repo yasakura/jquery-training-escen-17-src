@@ -1,0 +1,19 @@
+.shadow { box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2); }
+
+.mt50p { margin-top: 50px; }
+
+.h2Like {
+  font-size: 3.56rem;
+  line-height: 110%;
+  margin: 1.78rem 0 1.424rem 0;
+}
+
+.h5Like {
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: .82rem 0 .656rem 0;
+}
+
+.textTab { min-height: 210px !important; }
+
+a.active { border-bottom: solid 2px #ee6e73; }
