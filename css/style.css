@@ -17,3 +17,5 @@
 .textTab { min-height: 210px !important; }
 
 a.active { border-bottom: solid 2px #ee6e73; }
+
+.hidden { display: none; }
