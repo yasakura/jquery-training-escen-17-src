@@ -30,4 +30,4 @@ Pour qu'une action se produise quand vous cliquez sur le bouton *payer*, inserer
 ```
 // Initialisation de la fonction modal du framework CSS (pour quand on clique sur le bouton payer).
 $('.modal').modal();
-``
+```
