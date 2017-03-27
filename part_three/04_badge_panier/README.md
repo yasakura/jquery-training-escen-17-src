@@ -18,7 +18,7 @@ Le badge doit avoir la structure suivante :
 ```
 <span class="nb-items"></span>
 ```
-Vous devez l'insérer après la dropdowm `#dropdown1`
+Vous devez l'insérer après la dropdown `#dropdown1`
 
 __Attention__ : vous devez créer le badge que s’il n'existe pas encore.
 
