@@ -7,7 +7,7 @@ Quand vous cliquez sur le bouton 'réserver', vous devez effectuer plusieurs act
 3. Ajouter le voyage dans le panier
 4. Dans le panier, calculer le montant total à payer.
 
-Pour indiquer le voyage sélectionné, quand vous cliquez sur le bouton 'réservé', ajouter la classe `.in-basket` à la div parente `.card`.
+Pour indiquer le voyage sélectionné, quand vous cliquez sur le bouton 'réserver', ajouter la classe `.in-basket` à la div parente `.card`.
 
 Pour remonter de plusieurs éléments du DOM, utilisez [parents()](https://api.jquery.com/parents/).
 
