@@ -1,6 +1,6 @@
 # Fichiers pour la troisième partie
 
-Vous trouverez dans le répertoire *01_fichiers_de_base* votre base de travail.
+Vous trouverez dans le répertoire *01_fichiers_de_base*, votre base de travail.
 
 Dans les répertoires suivants (02…,03…,04…), vous trouverez les instructions à suivre.
 

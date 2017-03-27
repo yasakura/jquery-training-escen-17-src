@@ -4,7 +4,7 @@ Dans le dossier où sont les sources, vous avez un fichier nommé *data.json*. C
 
 ## Récupérez les données.
 
-Comme dans [cet exercice](https://yasakura.github.io/jquery-training-escen-17-slides/part_two.html#/39), récupérez les données présentent dans le fichier *data.json*.
+Comme dans [cet exercice](https://yasakura.github.io/jquery-training-escen-17-slides/part_two.html#/39), récupérez les données présentes dans le fichier *data.json*.
 
 Une fois celles-ci récupérées, vous allez devoir construire, pour chaque élément, une structure HTML, la remplir avec les données récupérées et injecter le tout dans la page.
 

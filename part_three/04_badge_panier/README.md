@@ -1,6 +1,6 @@
 # Nombre d'éléments dans le panier
 
-Pour connaître le nombre d'éléments dans le panier, nous allons compter les éléments sélectionnés, ensuite on affichera ce nombre sur le panier.
+Pour connaître le nombre d'éléments dans le panier, nous allons compter les éléments sélectionnés dans la page. Ensuite on affichera ce nombre sur le panier.
 
 ## Le nombre d'éléments sélectionné
 

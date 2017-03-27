@@ -1,6 +1,6 @@
 # Suppression du panier
 
-Créez un événement quand on clique sur le bouton pour supprimer un élément du panier.
+Créez un événement quand on clique sur le bouton pour supprimer l'élément du panier.
 
 1. Dans cette fonction, désactivez le lien avec un `event.preventDefault()`.
 2. Supprimer le produit
