@@ -1,0 +1,32 @@
+[
+  {
+    "url_image": "https://unsplash.it/3456/2304?image=419",
+    "city": "Florence",
+    "price": "999"
+  },
+  {
+    "url_image": "https://unsplash.it/3456/2304?image=415",
+    "city": "Los Angeles",
+    "price": "1100"
+  },
+  {
+    "url_image": "https://unsplash.it/3456/2304?image=392",
+    "city": "San Francisco",
+    "price": "869"
+  },
+  {
+    "url_image": "https://unsplash.it/3456/2304?image=901",
+    "city": "Reykjavik",
+    "price": "1299"
+  },
+  {
+    "url_image": "https://unsplash.it/3456/2304?image=354",
+    "city": "New York",
+    "price": "680"
+  },
+  {
+    "url_image": "https://unsplash.it/3456/2304?image=351",
+    "city": "Palerme",
+    "price": "979"
+  }
+]
