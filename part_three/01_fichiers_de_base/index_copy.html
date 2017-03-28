@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice jQuery - Partie 3</title>
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="white">
+      <div class="nav-wrapper">
+        <a href="/index.html" class="brand-logo black-text"> <i class="material-icons large">group_work</i> Paradise</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a class="black-text" href="#">Qui sommes-nous ?</a></li>
+          <li class="basket relative">
+            <a class="dropdown-button black-text" href="#!" data-activates="dropdown1" data-beloworigin="true" data-constrainwidth="false" data-stoppropagation="true"><i class="material-icons large left">shopping_basket</i> Mon panier</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="dropdown1" class="black-text dropdown-content">
+      <p class="h6-like grey-text text-lighten-1 center-align basket-empty">Le panier est vide.</p>
+    </div>
+  </div>
+
+  <main>
+    <div class="slider">
+      <p class="title-slider">Parcourez le monde <br> avec nous</p>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col s6 offset-s3 center-align">
+        <p class="h4-like fw-200">NOS PLUS BEAUX FAUX VOYAGES</p>
+        <p class="grey-text">Depuis quelques jours, nous avons la joie de vous proposer des faux voyages sur notre site, voici donc une sélection de ceux qui se vendent le mieux, ceux qui nous rapportent le plus d'argent. Les autres on les a abandonnés.</p>
+      </div>
+    </div>
+
+
+    <div class="row card-wrapper">
+      <div class="col s4">
+        <div class="card" data-destination="Florence" data-price="999" data-id="01" data-url-image="https://unsplash.it/3456/2304?image=419">
+          <div class="card-image">
+            <img src="https://unsplash.it/3456/2304?image=419">
+          </div>
+          <div class="card-content">
+            <p class="card-title grey-text text-darken-4">Florence<span class="price right">999 €</span></p>
+            <p class="center-align mt-1">
+              <a class="waves-effect waves-light btn blue lighten-2" data-reservation><i class="material-icons left">airplanemode_active</i>RÉSERVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s4">
+        <div class="card" data-destination="Los Angeles" data-price="1100" data-id="02" data-url-image="https://unsplash.it/3456/2304?image=415">
+          <div class="card-image">
+            <img src="https://unsplash.it/3456/2304?image=415">
+          </div>
+          <div class="card-content">
+            <p class="card-title grey-text text-darken-4">Los Angeles<span class="price right">1 100 €</span></p>
+            <p class="center-align mt-1">
+              <a class="waves-effect waves-light btn blue lighten-2" data-reservation><i class="material-icons left">airplanemode_active</i>RÉSERVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s4">
+        <div class="card" data-destination="Florence" data-price="869" data-id="03" data-url-image="https://unsplash.it/3456/2304?image=392">
+          <div class="card-image">
+            <img src="https://unsplash.it/3456/2304?image=392">
+          </div>
+          <div class="card-content">
+            <p class="card-title grey-text text-darken-4">San Francisco<span class="price right">869 €</span></p>
+            <p class="center-align mt-1">
+              <a class="waves-effect waves-light btn blue lighten-2" data-reservation><i class="material-icons left">airplanemode_active</i>RÉSERVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s4">
+        <div class="card" data-destination="Florence" data-price="1299" data-id="04" data-url-image="https://unsplash.it/3456/2304?image=901">
+          <div class="card-image">
+            <img src="https://unsplash.it/3456/2304?image=901">
+          </div>
+          <div class="card-content">
+            <p class="card-title grey-text text-darken-4">Reykjavik<span class="price right">1 299 €</span></p>
+            <p class="center-align mt-1">
+              <a class="waves-effect waves-light btn blue lighten-2" data-reservation><i class="material-icons left">airplanemode_active</i>RÉSERVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s4">
+        <div class="card" data-destination="Florence" data-price="680" data-id="05" data-url-image="https://unsplash.it/3456/2304?image=354">
+          <div class="card-image">
+            <img src="https://unsplash.it/3456/2304?image=354">
+          </div>
+          <div class="card-content">
+            <p class="card-title grey-text text-darken-4">New York<span class="price right">680 €</span></p>
+            <p class="center-align mt-1">
+              <a class="waves-effect waves-light btn blue lighten-2" data-reservation><i class="material-icons left">airplanemode_active</i>RÉSERVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s4">
+        <div class="card" data-destination="Florence" data-price="979" data-id="06" data-url-image="https://unsplash.it/3456/2304?image=351">
+          <div class="card-image">
+            <img src="https://unsplash.it/3456/2304?image=351">
+          </div>
+          <div class="card-content">
+            <p class="card-title grey-text text-darken-4">Palerme<span class="price right">979 €</span></p>
+            <p class="center-align mt-1">
+              <a class="waves-effect waves-light btn blue lighten-2" data-reservation><i class="material-icons left">airplanemode_active</i>RÉSERVER</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Paiement</h4>
+        <p>Le système de paiement n'est pas encore implémenté.</p>
+      </div>
+    </div>
+  </main>
+
+   <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Paradise</h5>
+            <p class="grey-text text-lighten-4">Ici il faudrait mettre un texte, mais vu que le stagiaire était malade, il n'a pas pu l'écrire. </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2028 Copyright
+        </div>
+      </div>
+    </footer>
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/script2.js"></script>
+</body>
+</html>
